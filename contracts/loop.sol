@@ -12,7 +12,7 @@ contract LoopExample {
     function complexLoop(uint _score) external pure returns(uint) {
          _score;
 
-          for (uint i = 0; i < 1000; i++) {
+          for (uint i = 0; i < 100; i++) {
             _score += i + 2; 
     }
     return _score;
@@ -23,7 +23,7 @@ contract LoopExample {
     function loop(uint _car) external pure returns(uint) {
         _car;
 
-        for (uint i = 0; i < 100; i++) {
+        for (uint i = 0; i < 1000; i++) {
             if(_car == 50) {
                 _car *= i;
             }
